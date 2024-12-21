@@ -8,7 +8,13 @@ const Root = () => {
             <directionalLight position={[0,0,2]} />
 
             <mesh position={[1,0,0]}>
-                <boxGeometry color={"orange"}/>
+                <boxGeometry />
+                <meshStandardMaterial/>
+
+            </mesh>
+
+            <mesh position={[1,0,0]}>
+                <boxGeometry />
                 <meshStandardMaterial/>
 
             </mesh>
